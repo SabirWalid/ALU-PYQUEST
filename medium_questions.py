@@ -241,5 +241,16 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
+    {
+            "question": "What do these lines print?\n\nclass User:\nid = 1\nu = User()\nUser.id = 98\nprint(u.id),
+        "options": {
+            "a": "1",
+            "b": "None",
+            "c": "98",
+            "d": "89"
+        },
+        "answer": "c"
+    },
 
 ]
+
