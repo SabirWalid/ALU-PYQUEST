@@ -5,19 +5,20 @@ PROBLEM_SETS = [
     {
         "question": "Which of these is an example of a simple program in Python?",
         "options": {
-            "a": "print('Hello, World!')\n >> Hello, World!",
-            "b": "def hello():\n\t print('Hello, Boss!')\n >> Hello, World!",
-            "c": "print('Hello, Python!') >> Hello, World!",
-            "d": "def world():\n\t print('Hello, Word!') >> Hello, World!"
+            "a": "print('Hello, World!')\n >>> Hello, World!",
+            "b": "def hello():\n\t print('Hello, Boss!')\n >>> Hello, World!",
+            "c": "print('Hello, Python!') >>> Hello, World!",
+            "d": "def world():\n\t print('Hello, Word!') >>> Hello, World!"
         },
         "answer": "a"
     },
+    {
         "question": "What's the correct way to declare variables in Python?",
         "options": {
-            "a": "set x = 5, y = 10, z = x + y, print(z) >> Output: 15",
-            "b": "x = 5\ny = 10\nz = x + y\nprint(z) >> Output: 15",
-            "c": "x = 5, y = 10, z = x + y\nprint(z) >> Output: 15",
-            "d": "set x = 5\nset y = 10\nset z = x + y\nprint(z) >> Output: 15"
+            "a": "set x = 5, y = 10, z = x + y, print(z)\n >>> Output: 15",
+            "b": "x = 5\ny = 10\nz = x + y\nprint(z)\n >>> Output: 15",
+            "c": "x = 5, y = 10, z = x + y\nprint(z)\n >>> Output: 15",
+            "d": "set x = 5\nset y = 10\nset z = x + y\nprint(z)\n >>> Output: 15"
         },
         "answer": "b"
     },
@@ -171,107 +172,15 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
-
-     {
-             "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
-             "options": {
-                 "a": "Less than 3",
-                 "b": "Greater than or equal to 3",
-                 "c": "syntax error",
-                 },
-             "answer": "a"
-             },
-            {
-             "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
-             "options": {
-                 "a": "Hello Adam",
-                 "": "Hello",
-                 "c": "sybntax error"
-                 },
-             "answer": "a"
-             },
-             {
-             "question": "what will this line print?\n q = True\n p = False\n result = q and p\n print(result)",
-             "options": {
-                 "a": "True",
-                 "b": "False",
-                 "c": "Error"
-                 },
-             "answer": "b"
-             },
- {
-             "question": "what will this line print?\n w = 9\n z = 6\n result = w < z\n print(result)",
-             "options": {
-                 "a": "True",
-                 "b": "False",
-                 "c": "Error"
-                 },
-             "answer": "b"
-             },
-              {
-             "question": "what will this line print?\n age = 50\n print("My age is "+ age)",
-             "options": {
-                 "a": "My age is 50",
-                 "b": "My age",
-                 "c": "syntax error"
-                 },
-             "answer": "c"
-             },
-            {
-                "question": "what will this line print?\n for r in range(7):\n print(r)",
-             "options": {
-                 "a": "0 1 2 3 4 5 6",
-                 "b": "0 1 2 3 4 5 6 7",
-                 "c": "None of the above"
-                 },
-             "answer": "a"
-             },
-             {
-              "question": "what will this line print?\n my_list = [1, 2, 3, 4, 5]\n for my in my_list:\n\t print(my)",
-             "options": {
-                 "a": "1 2 3 4 5",
-                 "b": "[1, 2, 3, 4, 5]",
-                 "c": "syntax error"
-                 },
-             "answer": "a"
-             },
-             {
-             "question": "what will this line print?\n x = 15\n y = 5\n if x > y:\n\t print("x is number 24")\n else:\n\t print("y is number 25")",
-             "options": {
-                 "a": "x is number 24",
-                 "b": "y is number 25",
-                 "c": "syntax error"
-                 },
-             "answer": "a"
-             },
-              {
-            "question": "what will this line print?\n first_list = [1 2 3 4 5]\n print(len(first_list))",
-             "options": {
-                 "a": "1",
-                 "b": "5",
-                 "c": "syntax error"
-                 },
-             "answer": "b"
-             },
-               {
-           "question": "what will this line print?\n x = 8\n y = 5\n result = x - y\n print(result)",
-             "options": {
-                 "a": "3",
-                 "b": "5",
-                 "c": "syntax error"
-                 },
-             "answer": a    
-             },
-
     {
-        "question": "Why are local variable names beginning with an underscore discouraged?",
+        "question": "What do these lines print?\n\n class User:\n\tid = 1\n\nprint(User.id)\n",
         "options": {
-            "a": "they are used to indicate a private variables of a class",
-            "b": "they confuse the interpreter",
-            "c": "they are used to indicate global variables",
-            "d": "they slow down execution"
-        },
-        "answer": "a"
+            "a": "89",
+            "b": "None",
+            "c": "1",
+            "d": "98"
+            },
+        "answer": "c"
     },
     {
         "question": "what will this line print?\n hub = 1\n if hub < 3:\n\t print('Less than 3')\n else:\n\t print('Greater that or equal to 3')",
@@ -279,15 +188,107 @@ PROBLEM_SETS = [
             "a": "Less than 3",
             "b": "Greater than or equal to 3",
             "c": "syntax error",
+            "d": "The code will not print anything"
         },
         "answer": "a"
     },
     {
-        "question": "what will this line print?\n name = "Adam"\n print("Hello, "+name)\n",
+        "question": "what will this line print?\n name = \"Adam\"\n print(\"Hello, \"+name)\n",
         "options": {
             "a": "Hello Adam",
             "b": "Hello",
-            "c": "sybntax error"
+            "c": "syntax error",
+            "d": "Adam Hello"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n q = True\n p = False\n result = q and p\n print(result)",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Error",
+            "d": "I don't know"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "what will this line print?\n w = 9\n z = 6\n result = w < z\n print(result)",
+        "options": {
+            "a": "True",
+            "b": "False",
+            "c": "Error",
+            "d": "I don't know"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "what will this line print?\n age = 50\n print(\"My age is \"+ age)",
+        "options": {
+            "a": "My age is 50",
+            "b": "My age",
+            "c": "syntax error",
+            "d": "My age 50"
+        },
+        "answer": "c"
+    },
+    {
+        "question": "what will this line print?\n for r in range(7):\n print(r)",
+        "options": {
+            "a": "0 1 2 3 4 5 6",
+            "b": "0 1 2 3 4 5 6 7",
+            "c": "0 1 2 3 4 5",
+            "d": "None of the above"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n my_list = [1, 2, 3, 4, 5]\n for my in my_list:\n\t print(my)",
+        "options": {
+            "a": "1 2 3 4 5",
+            "b": "[1, 2, 3, 4, 5]",
+            "c": "1, 2, 3",
+            "d": "syntax error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n x = 15\n y = 5\n if x > y:\n\t print(\"x is number 24\")\n else:\n\t print(\"y is number 25\")",
+        "options": {
+            "a": "x is number 24",
+            "b": "y is number 25",
+            "c": "x is number 25",
+            "d": "syntax error"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "what will this line print?\n first_list = [1 2 3 4 5]\n print(len(first_list))",
+        "options": {
+            "a": "1",
+            "b": "5",
+            "c": "4",
+            "d": "syntax error"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "what will this line print?\n x = 8\n y = 5\n result = x - y\n print(result)",
+        "options": {
+            "a": "3",
+            "b": "5",
+            "c": "8",
+            "d": "syntax error"
+        },
+        "answer": "a"    
+    },
+    {
+        "question": "Why are local variable names beginning with an underscore discouraged?",
+        "options": {
+            "a": "they are used to indicate a private variables of a class",
+            "b": "they confuse the interpreter",
+            "c": "they are used to indicate global variables",
+            "d": "they slow down execution"
         },
         "answer": "a"
     },
@@ -300,7 +301,7 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What will be the output of the following code?\nage = 20\nif age >= 18 and age <= 25:\n print('Age is between 18 and 25')\nelse:\n print('Age is not between 18 and 25')",
         "options": {
@@ -310,7 +311,7 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "b"
-    }
+    },
     {
         "question": "What keyword would you use to add an alternative condition to an if statement?",
         "options": {
@@ -324,15 +325,15 @@ PROBLEM_SETS = [
     {
         "question": "What is the output of the following code:\n\n x = 6\n y = 2\n print(x ** y)\n print(x // y)",
         "options": {
-            "a": "66\n 0",
-            "b": "36\n 0",
-            "c": "66\n 3",
-            "d": "36\n 3"
+            "a": "66\n\t 0",
+            "b": "36\n\t 0",
+            "c": "66\n\t 3",
+            "d": "36\n\t 3"
         },
         "answer": "d"
     },
     {
-        "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print("Hi")\n elif a <= 30:\n\t print("Hello")\n else:\n\t print("Know Program")",
+        "question": "Find the output of the given Python program?\n\n a = 25\n if a < 15:\n\t print(\"Hi\")\n elif a <= 30:\n\t print(\"Hello\")\n else:\n\t print(\"Know Program\")",
         "options": {
             "a": "Hi",
             "b": "Hello",
@@ -440,6 +441,35 @@ PROBLEM_SETS = [
             "d": "Error"
         },
         "answer": "a"
-    }
+    },
+    {
+        "question": "Which of the following is used to define a block of code in Python language?",
+        "options": {
+            "a": "Indentation",
+            "b": "Key",
+            "c": "Brackets",
+            "d": "All of the mentioned"
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which keyword is used for function in Python language?",
+        "options": {
+            "a": "Function",
+            "b": "def",
+            "c": "Fun",
+            "d": "Define"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "Which of the following functions can help us to find the version of python that we are currently working on?",
+        "options": {
+            "a": "sys.version(1)",
+            "b": "sys.version(0)",
+            "c": "sys.version()",
+            "d": "sys.version"
+        },
+        "answer": "d"
+    },
 ]
-

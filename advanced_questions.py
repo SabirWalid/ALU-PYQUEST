@@ -35,6 +35,56 @@ PROBLEM_SETS = [
         "answer": "a"
     },
     {
+        "question": "What is a metaclass in Python?",
+        "options": {
+            "a": "A class used to define the behavior of other classes.",
+            "b": "A class used to define the behavior of other metaclasses.",
+            "c": "A class used to define the behavior of class instances.",
+            "d": "A class used to define the behavior of function calls."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "What is the purpose of the __slots__ attribute in Python classes?",
+        "options": {
+            "a": "It is used to define a set of allowed attributes for a class instance",
+            "b": "It is used to define a set of forbidden attributes for a class instance",
+            "c": "It is used to define a set of class-level attributes",
+            "d": "It is used to define a set of static attributes."
+        },
+        "answer": "a"
+    },
+    {
+        "question": "Which of the following is not a Python built-in module for working with files?",
+        "options": {
+            "a": "os",
+            "b": "io",
+            "c": "pathlib",
+            "d": "file"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "Which of the following is a Python decorator that can be used for caching expensive function calls?",
+        "options": {
+            "a": "@staticmethod",
+            "b": "@classmethod",
+            "c": "@property",
+            "d": "@lru_cache"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What is the difference between a shallow copy and a deep copy in Python?",
+        "options": {
+            "a": "A shallow copy creates a copy of the object's reference while a deep copy creates a copy of the object's data.",
+            "b": "A shallow copy creates a new object while a deep copy does not.",
+            "c": "A shallow copy only copies the first level of the object while a deep copy copies all levels.",
+            "d": "A shallow copy is slower than a deep copy."
+        },
+        "answer": "a"
+    },
+    {
         "question": "What is the output of the following code?\n\nimport re\nmy_string = 'The quick brown fox jumps over the lazy dog'\nresult = re.findall('[aeiou]', my_string)\nprint(result)",
         "options": {
             "a": "['a', 'e', 'i', 'o', 'u']",
@@ -53,7 +103,7 @@ PROBLEM_SETS = [
             "d": "SyntaxError: invalid syntax"
         },
         "answer": "b"
-    }
+    },
     {
         "question": "What is the difference between the print() function and the return statement in Python?",
         "options": {
@@ -63,7 +113,7 @@ PROBLEM_SETS = [
             "d": "print() and return statement are not valid functions in Python"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is the purpose of the urllib module in Python?",
         "options": {
@@ -73,7 +123,7 @@ PROBLEM_SETS = [
             "d": "To perform mathematical operations"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is the purpose of test-driven development (TDD) in software development?",
         "options": {
@@ -83,7 +133,7 @@ PROBLEM_SETS = [
             "d": "To write code quickly without worrying about testing"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is object-relational mapping (ORM) in Python?",
         "options": {
@@ -93,7 +143,7 @@ PROBLEM_SETS = [
             "d": "A technique for mapping Python scripts to network protocols"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "What is the difference between the input() function and the raw_input() function in Python 2.x?",
         "options": {
@@ -103,7 +153,7 @@ PROBLEM_SETS = [
             "d": "The input() and raw_input() functions are interchangeable and can be used interchangeably in Python 2.x"
         },
         "answer": "a"
-    }
+    },
     {
         "question": "Which of the following is a valid way to open a file named \"example.txt\" in read mode?",
         "options": {
@@ -222,6 +272,7 @@ PROBLEM_SETS = [
         },
         "answer": "b"
     },
+    {
         "question": "Which of the following statements is true about Python's asyncio library?",
         "options": {
             "a": "It allows multiple threads to execute in parallel",
@@ -230,5 +281,134 @@ PROBLEM_SETS = [
             "d": "It is not compatible with Python 3"
         },
         "answer": "c"
-    }
+    },
+    {
+        "question": "What will this code print \nnum1 = 4\nnum2 = 2\nres = num1 * num2\n\nprint("Multiplication is", res)",
+        "options": {
+            "a": "4",
+            "b": "42",
+            "c": "8",
+            "d": "6"
+        },
+        "answer": "c"
+    },
+     {
+            "question": "What does this function do?\ndef write_file(filename="", text=""):\n\t\twith open(filename, "w", encoding="utf-8") as f:\n\t\treturn f.write(text)",
+        "options": {
+            "a": "a function that writes a string to a text file (UTF8) and returns the number of characters written",
+            "b": "a function that appends a string at the end of a text file (UTF8) and returns the number of characters added",
+            "c": "afunction that returns an object (Python data structure) represented by a JSON string",
+            "d": "a function that writes an Object to a text file, using a JSON representation"
+        },
+         "answer": "a"
+    },
+       {
+            "question": "What does the function below do?\nimport json\n\ndef load_from_json_file(filename):\n\t\twith open(filename) as f:\n\t\treturn json.load(f)",
+        "options": {
+            "a": "writes an Object to a text file, using a JSON representation",
+            "b": "returns an object (Python data structure) represented by a JSON string",
+            "c": "creates an Object from a JSON file",
+            "d": "returns the JSON representation of an object (string)"
+        },
+        "answer": "c"
+    },
+      {
+            "question": "What function can be used to read input from the user in Python3?",
+        "options": {
+            "a": "raw_input()",
+            "b": "input()",
+            "c": "read_input()",
+            "d": "read_input()"
+        },
+         "answer": "b"
+    },
+      {
+            "question": "Which Python module is used to create network sockets?",
+        "options": {
+            "a": "Urllib",
+            "b": "network",
+            "c": "request",
+            "d": "socket"
+        },
+         "answer": "d"
+    },
+       {
+            "question": "What is the first step in test-driven development?",
+        "options": {
+            "a": "Write the code",
+            "b": "Debug the code",
+            "c": "Deploy the code",
+            "d": "Write the tests"
+        },
+         "answer": "d"
+    },
+      {
+            "question": "In object-relational mapping (ORM), what is an entity?",
+        "options": {
+            "a": "A database table",
+            "b": "A database column",
+            "c": "A Python class",
+            "d": "An SQL query"
+        },
+         "answer": "c"
+    },
+      {
+            "question": "What is a database connection pool?",
+        "options": {
+            "a": "A distributed database",
+            "b": "A cache of database connections that can be reused",
+            "c": "A backup copy of a database",
+            "d": "A group of users who share access to a database"
+        },
+         "answer": "b"
+    },
+       {
+            "question": "When reading a file in Python, which method can be used to read the entire file as a single string?",
+        "options": {
+            "a": "read()",
+            "b": "readline()",
+            "c": "readlines()",
+            "d": "file()"
+        },
+         "answer": "a"
+    },
+      {
+            "question": "Which of the following is not a benefit of using test-driven development (TDD)?",
+        "options": {
+            "a": "Faster development time",
+            "b": "Reduced maintenance costs",
+            "c": "Increased risk of bugs",
+            "d": "Improved code quality"
+        },
+         "answer": "c"
+        "question": "What is the output of the below code?\n\nmyList=[1,2,3,5,3,4,6,9]\nmyList[-6:6]",
+        "options": {
+            "a": "[]",
+            "b": "[3, 5, 3, 4]",
+            "c": "[4, 3, 5, 3]",
+            "d": "Index Error"
+        },
+        "answer": "b"
+    },
+    {
+        "question": "What is the run time of the below code?\n\nfor i in range(n):\n\tj=1\nwhile(j<n):\n\nprint(i,j)\nj*=2",
+        "options": {
+            "a": "O(n)",
+            "b": "O(n^2)",
+            "c": "O(log(n))",
+            "d": "O(n*log(n))"
+        },
+        "answer": "d"
+    },
+    {
+        "question": "What is the method that is bound to class but not the instance?",
+        "options": {
+            "a": "Static method",
+            "b": "Class method",
+            "c": "Main method",
+            "d": "None of the above"
+        },
+        "answer": "b"
+    },
+
 ]
