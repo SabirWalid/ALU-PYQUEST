@@ -904,5 +904,15 @@ PROBLEM_SETS = [
             "d": "Nothing"
         },
         "answer": "d"
+    },
+     {
+        "question": "What do these lines print?\nclass User:\n\tid = 1\nUser.id = 98\nu = User()\nu.id = 89\nprint(User.id),
+        "options": {
+            "a": "1",
+            "b": "'None'",
+            "c": "98",
+            "d": "89"
+        },
+        "answer": "c"
     }
 ]
