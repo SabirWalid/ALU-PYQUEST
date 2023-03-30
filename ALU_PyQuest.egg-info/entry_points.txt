@@ -1,0 +1,2 @@
+[console_scripts]
+PyQuest = src.quiz:playgame
